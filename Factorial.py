@@ -1,6 +1,10 @@
 while True:
 
-    num = int(input("Enter the number to find factorial: "))
+    try:
+        num = int(input("Enter the number to find factorial: "))
+    except:
+        print("Entered value is not valid. Please try again.")
+        continue
     factorial = 1
 
     if num < 0:
