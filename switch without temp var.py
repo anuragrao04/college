@@ -1,0 +1,5 @@
+fnum = int(input("Enter first number: "))
+snum = int(input("Enter second number: "))
+print(f"The first number is {fnum} and the second number is {snum}")
+(fnum,snum) = (snum,fnum)
+print(f"After switching, the first number is {fnum} and second number is {snum}")
